@@ -109,3 +109,56 @@ button {
 .change-theme:hover {
     color: var(--first-color);
 }
+
+/* REUSABLE CSS CLASSES */
+.container {
+    max-width: 1024px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.grid {
+    display: grid;
+}
+
+
+/*=== HEADER & NAV ===*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: var(--z-fixed);
+    transition: .4s;
+}
+
+.nav {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    color: #fff;
+    display: inline-flex;
+    padding: 0 .25rem;
+    align-items: center;
+    column-gap: .25rem;
+    font-weight: var(--font-medium);
+    transition: .3s;
+}
+
+.nav__logo img {
+    width: 37px;
+    height: 40px;
+}
+
+.nav__logo span {
+    padding-top: .875rem;
+}
+
+.nav__logo:hover {
+    color: var(--first-color);
+}
