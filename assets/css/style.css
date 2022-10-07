@@ -155,16 +155,12 @@ button {
     height: 40px;
 }
 
-.nav__logo span {
-    padding-top: .875rem;
-}
-
 .nav__logo:hover {
     color: var(--first-color);
 }
 
 @media screen and (max-width: 1023px) {
-    .nav__menu{
+    .nav__menu {
         position: fixed;
         bottom: 2rem;
         background-color: var(--container-color);
@@ -178,24 +174,24 @@ button {
         transition: .4s;
     }
 
-    .nav__list{
+    .nav__list {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .nav__link{
+    .nav__link {
         color: var(--text-color);
         display: flex;
         padding: .5rem;
         border-radius: 50%;
     }
 
-    .nav__link i{
+    .nav__link i {
         font-size: 1.25rem;
     }
 
-    .nav__link span{
+    .nav__link span {
         display: none;
     }
 }
