@@ -131,3 +131,39 @@ button {
 .main {
   overflow: hidden;
 }
+
+/*====== Header & Nav ======*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: var(--z-fixed);
+  transition: .4s;
+}
+
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  column-gap: .25rem;
+  font-weight: var(--font-medium);
+  transition: .3s;
+}
+
+.nav__logo img {
+  width: 35px;
+  height: 35px;
+}
+
+.nav__logo:hover {
+  color: var(--first-color);
+}
